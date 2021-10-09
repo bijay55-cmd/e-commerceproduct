@@ -244,6 +244,16 @@ a{
 .sneaker{
   color: hsl(26, 100%, 55%);
 }
+.limitedtitle{
+  width: 50%;
+}
+.optionbtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:30%;
+}
+
 @media screen and (min-width:720px){
   .avatar{
     width:50%;
