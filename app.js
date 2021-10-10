@@ -97,7 +97,7 @@ function removeItem(event){
   for(var i=0; i<cartItemName.length; i++){
     if(cartItemName[i]. innerText == limited){
       document.querySelector('#number').innerText = --count;
-      alert("You've already added this songlist");
+      alert("You've already added this item");
       return 
     }
   }
