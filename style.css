@@ -346,6 +346,103 @@ cursor: pointer;
 .playlistscreen > div{
   margin-left: 100px;
 }
+    .column2 {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding:50px;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  width: 50%;
+  margin:auto;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  background:orange;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides3 {
+  display: none;
+}
+.mySlides3 img{
+  width:100%;
+  height:100%;
+  border-radius: 20px;
+}
+.cursor {
+  cursor: pointer;
+}
+.demo{
+padding:10px;
+border-radius: 20px;
+}
+/* Next & previous buttons */
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 20px 30px;
+  margin-top: -50px;
+  color: black;
+  border-radius: 50%;
+  background:whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 20px;
+}
+.prev2{
+  left:20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 }
 
 @media screen and (min-width:1440px){
@@ -357,5 +454,11 @@ cursor: pointer;
   }
   .columncontainer{
     padding:0 40px;
+  }
+    .modal-content{
+    width:40%;
+  }
+  .mySlides3 img{
+    height:500px;
   }
 }
