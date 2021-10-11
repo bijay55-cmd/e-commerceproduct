@@ -81,14 +81,15 @@ function removeItem(event){
   var title = document.querySelector('.pricetag');
   var imgSrc =document.querySelector('.img').src;
   var limited = document.querySelector('.limited').innerText;
+      var inputquantity = document.querySelector('#input').value;
   document.getElementById('number').innerHTML = ++count;
-  addSong(title,imgSrc,limited);
+  addSong(title,imgSrc,limited,inputquantity);
 
   updateCartTotal();
   }
   
   
-  function addSong(title,imgSrc, limited){
+  function addSong(title,imgSrc, limited,inputquantity){
   var cartRow = document.createElement('div');
   var cartItems = document.getElementsByClassName('playlistscreen')[0];
   
@@ -108,6 +109,7 @@ function removeItem(event){
   <p class="limitedtitle">${limited}</p>
   <div class="optionbtn">
   <p class="title">${title}</p>
+  <p class="quantity">${inputquantity}</p>
   <button class="remove">Remove</button>
   </div>
 <br>
