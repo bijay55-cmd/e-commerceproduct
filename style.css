@@ -210,7 +210,7 @@ padding:10px;
 }
 .remove{
   background:coral;
-  padding:10px;
+  padding:5px;
   border-radius: 5px;
   color:white;
 }
@@ -254,7 +254,7 @@ a{
   width:30%;
 }
 .modal{
-display:none;
+  display:none;
 }
 
 @media screen and (min-width:720px){
@@ -349,7 +349,8 @@ cursor: pointer;
 .playlistscreen > div{
   margin-left: 100px;
 }
-    .column2 {
+
+.column2 {
   float: left;
   width: 25%;
 }
@@ -373,6 +374,7 @@ cursor: pointer;
 .modal::-webkit-scrollbar {
   display: none;
 }
+
 
 /* Modal Content */
 .modal-content {
@@ -458,7 +460,7 @@ border-radius: 20px;
   .columncontainer{
     padding:0 40px;
   }
-    .modal-content{
+  .modal-content{
     width:40%;
   }
   .mySlides3 img{
