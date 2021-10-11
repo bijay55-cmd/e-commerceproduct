@@ -97,7 +97,7 @@ function removeItem(event){
   for(var i=0; i<cartItemName.length; i++){
     if(cartItemName[i]. innerText == limited){
       document.querySelector('#number').innerText = --count;
-      alert("You've already added this item");
+      alert("You've already added this songlist");
       return 
     }
   }
@@ -106,8 +106,8 @@ function removeItem(event){
   var cartRowContent = `
   <img class="playimg" src="${imgSrc}">
   <p class="limitedtitle">${limited}</p>
-  <p class="title">${title}</p>
   <div class="optionbtn">
+  <p class="title">${title}</p>
   <button class="remove">Remove</button>
   </div>
 <br>
@@ -175,6 +175,7 @@ purchase.addEventListener('click', () => {
 
   window.location = "index.html";
 })
+
 
 function openModal() {
   document.getElementById("myModal").style.display = "block";
