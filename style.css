@@ -216,7 +216,7 @@ padding:10px;
 }
 
 .playimg{
-  width:10%;
+  width:20%;
 }
 
 .cartitemshow{
@@ -245,13 +245,16 @@ a{
   color: hsl(26, 100%, 55%);
 }
 .limitedtitle{
-  width: 50%;
+  font-size: 12px;
+  width: 150px;
+  margin-left:20px;
 }
 .optionbtn{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width:30%;
+  width:300px;
+  margin-left: 50px;
 }
 .modal{
   display:none;
@@ -260,6 +263,15 @@ a{
 @media screen and (min-width:720px){
   .avatar{
     width:50%;
+  }
+  .limitedtitle{
+    font-size: 20px;
+    width:50%;
+    margin: 0 100px;
+  }
+  .optionbtn{
+    width:50%;
+    padding:0 20px;
   }
 }
 @media screen and (min-width: 1020px){
