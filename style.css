@@ -208,6 +208,19 @@ background:whitesmoke;
 align-items: center;
 padding:10px;
 }
+.titlehead{
+  display:flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.flex{
+  display:flex;
+  width:50%;
+  justify-content: flex-start;
+}
+.flex p{
+  margin: 0 10px;
+}
 .remove{
   background:coral;
   padding:5px;
@@ -272,6 +285,9 @@ a{
   .optionbtn{
     width:50%;
     padding:0 20px;
+  }
+  .flex {
+    width:30%;
   }
 }
 @media screen and (min-width: 1020px){
@@ -459,7 +475,13 @@ border-radius: 20px;
 .next2:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+.flex{
+  width:35%;
+  justify-content:flex-start;
+}
+.flex p{
+  margin: 0 60px;
+}
 }
 
 @media screen and (min-width:1440px){
